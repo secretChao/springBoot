@@ -1,0 +1,13 @@
+spring:
+  datasource:
+      driver-class-name: org.mariadb.jdbc.Driver  # mariadb jdbc Driver
+      # 連線資料庫
+      # eirunye_springboot_notes表示的是你建立的資料庫;
+      # useSSL:是否使用SSL證書驗證;
+      # characterEncoding:編碼格式;
+      # useJDBCCompliantTimezoneShift:是否使用符合JDBC的時區轉換;
+      # useLegacyDatetimeCode:是否使用舊版日期時間碼;
+      # serverTimezone:選擇伺服器時間方式;
+      url: jdbc:mariadb://localhost:3306/demo
+      username: root   #本地設定資料庫賬號
+      password: root   #密碼
